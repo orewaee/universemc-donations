@@ -1,0 +1,30 @@
+{
+    "discordConfig": {
+        "token": "",
+        "guildId": "",
+        "channelId": ""
+    },
+    "mongooseConfig": {
+        "uri": "mongodb://localhost:27017/donations"
+    },
+    "users": [
+        {
+            "username": "jafar",
+            "amount": 8
+        },
+        {
+            "username": "Nine",
+            "amount": 8
+        },
+        {
+            "username": "Misha",
+            "amount": 8
+        }
+    ],
+    "donationalertsConfig": {
+        "soket": "wss://socket.donationalerts.ru",
+        "port": "443",
+        "type": "minor",
+        "token": ""
+    }
+}
